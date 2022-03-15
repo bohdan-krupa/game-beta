@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Configure -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KRP</title>
+	<link rel="icon" type="image/png" href="media/icon.png">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="media/css/style.css">
+</head>
+	<div id="object"></div>
+	<div id="rest">
+		<img id="house" src="media/gifs/old_house.gif">
+		<img id="guy" src="media/sprites/purple_guy_sprite.png">
+	</div>
+	<img id="freddy" src="media/gifs/freddy_screamer.gif">
+
+	<div id="error">Site does not support that screen size</div>
+
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- JS -->
+	<script src="media/js/script.js"></script>
+
+	<!-- Required only during development -->
+	<script>
+		$(document).on("dblclick", function() {
+			location.reload();
+		});
+	</script>
+</body>
+</html>
